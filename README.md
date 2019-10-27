@@ -21,8 +21,10 @@
 
 ## VPC
 - Enables you to launch AWS resources into a virtual network that you've defined. 
+
 ## Subnet
 - A subnet is a range of IP addresses in your VPC. You can launch AWS resources into a specified subnet. Each service can have its own subnet
+
 ## Security Group
 - A security group acts as a virtual firewall for your instance to control inbound and outbound traffic
 - Security groups act at the instance level, not the subnet level, therefore you can have different sg under same subnet
@@ -30,8 +32,9 @@
 ## Auto Scale Group
 - Launch config
 - New instance will pick up the latest config from tagrole or terraform
-Load Balancer
-## Creates a target group
+
+## Load Balancer
+- Creates a target group
 - You can manually remove instance for debugging
 
 ## Infrastructure
@@ -40,3 +43,6 @@ Load Balancer
 - Add target group into ASG so it knows the ASG instance state
 
 <div align="center"><img src="image/ec2_info.png" alt="Infrastructure" width="500"/></div>
+
+## Resources
+https://www.youtube.com/watch?v=tMC4h-arGPA
