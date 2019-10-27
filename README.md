@@ -1,11 +1,8 @@
 <h1 align="center">DevOps-EC2</h1>
-<div align="center">Learning notes for DevOps - EC2
+<div align="center"><p>Learning notes for DevOps - EC2</p>
 <img src="image/devops.png" alt="DevOps" width="400"/>
 </div>
 
-
-
-# EC2
 
 ## Root Device
 - EBS: Storage persistent on the EBS volume
